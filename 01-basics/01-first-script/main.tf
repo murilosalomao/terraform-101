@@ -20,5 +20,7 @@ resource "aws_s3_bucket" "test-bucket" {
     Name        = "My bucket"
     Environment = "Dev"
     ManagedBy   = "Terraform"
+    Owner       = "Murilo Salomão"
+    UpdatedAt   = "2023-06-22"
   }
 }
